@@ -1,0 +1,92 @@
+body{
+  font-family: "Trebuchet MS";
+  font-size: 1em;
+  background-color: #808080;
+  margin: 0;
+  background-image: url("img/old-grunge-green.jpg");
+}
+
+#encabezado{
+	height: 100px;
+}
+
+#encabezado #titulo{
+	float: left;
+	margin: 30px;
+	font: bold 30px Georgia, serif;
+}
+
+#encabezado nav{
+	float: right;
+	margin: 30px;
+	margin-top: 40px;
+}
+
+#encabezado nav ul{
+	margin: 0px;
+	list-style-type: none;
+}
+
+#encabezado nav li{
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 40px;
+}
+
+h1{
+  font-size: 3em;
+}
+
+h2{
+  font-size: 2em;
+}
+
+h3{
+  font-size: 1.5em;
+}
+
+section{
+  color: #ffffff;
+  opacity: 0.6;
+  background-color: #000000;
+  margin-bottom: 40px;
+  border: 2px solid #000000;
+}
+
+section img{
+	opacity: 2;
+}
+
+article{
+  margin: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px dotted #ffffff;
+}
+
+input{
+  font-family: "Trebuchet MS";
+}
+
+input:focus {
+  background-color: lightblue;
+}
+
+#principal table{
+  width: 100%;
+}
+
+#principal th{
+  width: 50%;
+}
+
+
+#principal table, th{
+	border: 2px solid lightblue;
+    border-radius: 5px;
+}
+
+a, a:visited{
+	color: #ffffff;
+}
